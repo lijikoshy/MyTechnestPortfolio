@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    line-height: 1.6;
+}
+
+
+/* Navbar */
+header {
+    background: #222;
+    padding: 15px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav ul li {
+    margin-left: 20px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+
+/* Sections */
+section {
+    padding: 100px 50px;
+    min-height: 100vh;
+}
+
+
+/* Home */
+.home {
+    background: #00adb5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.home h1 {
+    font-size: 50px;
+}
+
+
+
+
+/* About */
+.about {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+
+/* Projects */
+.projects {
+    text-align: center;
+}
+
+
+.project-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.card {
+    background: #222;
+    color: white;
+    padding: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+/* Contact */
+.contact {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
